@@ -109,7 +109,7 @@ export const USER_CONFIG = {
 
         {"type": "*生日", "name": "包子", "year": "1999", "date": "06-28"},
       ],
-      customizedDateList: []
+      customizedDateList: [ {"keyword": "love_day", date: "2022-07-26"}]
     },
     {
       name: "老婆2",
