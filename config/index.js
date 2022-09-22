@@ -90,7 +90,7 @@ export const USER_CONFIG = {
         // 在一起的日子
         {"keyword": "love_day", date: "2022-07-26"},
         // 结婚纪念日
-        //  {"keyword": "marry_day", date: "2022-07-26"},
+    //   {"keyword": "marry_day", date: "2022-07-26"},
         // 退伍日
        //  {"keyword": "ex_day", date: "2022-09-10"},
       ]
@@ -109,7 +109,8 @@ export const USER_CONFIG = {
 
         {"type": "*生日", "name": "包子", "year": "1999", "date": "06-28"},
       ],
-      customizedDateList: [ {"keyword": "love_day", date: "2022-07-26"}]
+      customizedDateList: [ {"keyword": "love_day", date: "2022-07-26"},
+                          {"keyword": "marry_day", date: "0"}]
     },
     {
       name: "老婆2",
