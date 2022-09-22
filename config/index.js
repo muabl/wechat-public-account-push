@@ -30,18 +30,18 @@ export const USER_CONFIG = {
     // 金山每日一句
     CIBA: true,
     // 每日一言
-    oneTalk: false,
+    oneTalk: TRUE,
     // 土味情话(彩虹屁)
-    earthyLoveWords: false,
+    earthyLoveWords: true,
     // 朋友圈文案
-    momentCopyrighting: false,
+    momentCopyrighting: true,
     // 毒鸡汤
     poisonChickenSoup: false,
     // 古诗古文
-    poetry: false,
+    poetry: true,
     
     /** 星座运势 */
-    horoscope: false,
+    horoscope: true,
     
     /** 生日消息和节日消息 */
     birthdayMessage: true,
@@ -185,8 +185,7 @@ export const USER_CONFIG = {
    */
   FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-    {"type": "*生日", "name": "老婆", "year": "1996", "date": "09-09", isShowAge: true},
-    {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
+    {"type": "*生日", "name": "老婆", "year": "2004", "date": "06-28", isShowAge: true},
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
     {"type": "生日", "name": "李四", "year": "1996", "date": "09-31", isShowAge: true},
     {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
