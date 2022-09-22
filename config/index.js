@@ -97,14 +97,18 @@ export const USER_CONFIG = {
     },
     {
       name: "老婆1",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
+      id: "oXblv51AKav2htVzLugNAymawy2s",
+      useTemplateId: "f7vqUKygvd4SBQ0t0p7dGvckjdBMzUREw4TcoJf4rdw",
+      province: "福建",
+      city: "福州",
+      horoscopeDate: '06-28',
+      horoscopeDateType: '今日',
       openUrl: "https://wangxinleo.cn",
-      festivals: [],
+      festivals: [      
+        {"type": "*生日", "name": "小琳", "year": "2004", "date": "06-28"},
+
+        {"type": "*生日", "name": "包子", "year": "1999", "date": "06-28"},
+      ],
       customizedDateList: []
     },
     {
@@ -148,7 +152,7 @@ export const USER_CONFIG = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "oXblv57HlQDa2A4SF1F2EbdmTmoA",
     },
     // 你可以不断按格式往下增加
     // ...
